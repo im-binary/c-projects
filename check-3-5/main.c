@@ -6,12 +6,11 @@ int main() {
 	int a;
 	scanf_s("%d", &a);
 
-	if ((a % 3 == 0))
+	if ( a % 3 == 0 ) {
 		printf("true\n");
-
-	else if ((a % 5 == 0))
+	} else if ( a % 5 == 0 ) {
 		printf("true\n");
-
-	else
+	} else {
 		printf("false\n");
+	}
 }
